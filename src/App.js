@@ -1,13 +1,13 @@
-import './App.css';
-import NavBar from './NavBar';
+import NavBar from './components/NavBar';
+import Home from './components/Home';
+import Credits from './components/Credits';
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <footer>
-        <p>© {new Date().getFullYear()} Jerome Taruc. All rights reserved.</p>
-      </footer>
+      <Home />
+      <Credits />
     </div>
   );
 }
