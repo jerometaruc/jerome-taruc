@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles/Global.css';
 import './styles/NavBar.css';
-import './styles/Home.css';
+import './styles/Sections.css';
 import './styles/Credits.css';
 import App from './App';
 
