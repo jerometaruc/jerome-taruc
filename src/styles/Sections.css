@@ -1,9 +1,10 @@
 .section {
-    min-height: 60vh;
+    min-height: 70vh;
     padding: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    scroll-margin-top: 80px;
 }
 
 .section .content {
