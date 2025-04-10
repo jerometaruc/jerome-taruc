@@ -9,7 +9,22 @@
 
 .section .content {
     max-width: 800px;
+}
+
+/* Home section specific styles */
+#home .content {
     text-align: center;
+}
+
+/* Other sections specific styles */
+#about .content,
+#projects .content {
+    text-align: left;
+}
+
+.section h1 {
+    font-size: 3.0rem;
+    margin-bottom: 0.5rem;
 }
 
 .section h2 {
@@ -18,7 +33,12 @@
 }
 
 .section p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     line-height: 1.6;
     margin-bottom: 1rem;
+}
+
+.section .content b {
+    color: #cf9fff;
+    font-weight: bold;
 } 
