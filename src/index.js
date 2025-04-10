@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './styles/global.css';
-import './styles/navbar.css';
-import './styles/content.css';
-import './styles/credits.css';
+import './styles/Global.css';
+import './styles/NavBar.css';
+import './styles/Home.css';
+import './styles/Credits.css';
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
