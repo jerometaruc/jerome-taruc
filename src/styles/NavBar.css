@@ -4,7 +4,7 @@
   align-items: center;
   max-width: 80vw;
   margin: 0 auto;
-  background: #8c8c8c;
+  background: #383961;
   position: fixed;
   top: 0;
   left: 0;
@@ -13,7 +13,7 @@
 }
 
 .navbar h1 {
-  color: #ffffff;
+  color: #fffae3;
   font-size: 1.4rem;
   font-weight: bold;
   margin-left: 2rem;
@@ -41,13 +41,13 @@
   padding: 6px;
   transition: all 200ms ease-in;
   position: relative;
-  color: #ffffff;
+  color: #fffae3;
   display: flex;
   align-items: center;
 }
 
 .navbar a:hover {
-  color: #cf9fff;
+  transform: scale(1.1);
 }
 
 .navbar a svg {
@@ -56,6 +56,5 @@
 }
 
 .navbar a:hover svg {
-  color: #cf9fff;
   transform: scale(1.1);
 }
