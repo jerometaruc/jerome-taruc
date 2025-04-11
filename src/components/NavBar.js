@@ -25,7 +25,7 @@ const NavBar = () => {
                     href="#about" 
                     onClick={(e) => handleClick(e, 'about')}
                 >
-                    About Me
+                    About
                 </a>
                 <a 
                     href="#projects" 

@@ -5,7 +5,7 @@ const Home = () => {
         <section id="home" className="section">
             <div className="content">
                 <h1>Hello World, I'm Jerome.</h1>
-                <p>Welcome to V2.0 of my Portfolio Website</p>
+                <h2>Welcome to V2.0 of my personal website</h2>
             </div>
         </section>
     );
